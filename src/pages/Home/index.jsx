@@ -1,8 +1,11 @@
+import AnnouncementBar from '@/components/common/announcementbar'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <AnnouncementBar/>
+    </div>
   )
 }
 
