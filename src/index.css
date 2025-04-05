@@ -9,6 +9,8 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  --cerise: #9E2E56;
+  --gold: #9C7D50
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --radius: 0.625rem;
