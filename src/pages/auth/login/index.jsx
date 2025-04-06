@@ -1,9 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../../assets/logo.svg";
 import { X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import axios from "axios";
+import {  useNavigate } from "react-router-dom";
+
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const navigate = useNavigate();
+  const handleChange = (email) => {
+    setEmail(email);
+  };
+    const handleSubmit = async () => {
+      try {
+        const response = await axios.post(
+          "http://localhost:5000/api/admin/auth/checkUser",
+          {
+            email,
+          }
+        );
+        if (response.data.success) {
+          if (response.data.emailExist) {
+            console.log("email exist");
+          } else {
+            // navigate to register page
+
+            navigate("/auth/register");
+          }
+        }
+        console.log(response);
+      } catch (e) {
+        console.error("Error fetching data", e);
+      }
+    };
+  console.log("email", email);
   return (
     <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-[calc(100%-1rem)] max-h-full overflow-y-auto overflow-x-hidden bg-gray-100 bg-opacity-50">
       <div className="relative w-full max-w-xl max-h-full">
@@ -27,7 +58,12 @@ const Login = () => {
           </div>
 
           <div>
-            <Input type="email" placeholder="Email ID" className="py-7" />
+            <Input
+              type="email"
+              placeholder="Email ID"
+              className="py-7"
+              onChange={(e) => handleChange(e.target.value)}
+            />
             <span className="text-sm color-[#ab1e56] mt-2">
               Please enter your Email ID
             </span>
@@ -35,7 +71,7 @@ const Login = () => {
 
           <div className="flex items-center border-gray-200 dark:border-gray-600 rounded-b">
             <Button
-              // onClick={onClose}
+              onClick={handleSubmit}
               className="w-full py-7 rounded-none bg-[#191919]"
             >
               Continue
