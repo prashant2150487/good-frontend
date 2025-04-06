@@ -15,7 +15,7 @@ const UserProfile = () => {
         <User size={20} className="hidden lg:block" />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="text-sm font-bold text-[#191919] min-w-[171px] mr-7">
-        <Link to="/login">
+        <Link to="/auth/login">
           <DropdownMenuLabel className="bg-red-100 p-4">
             Login
           </DropdownMenuLabel>

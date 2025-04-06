@@ -1,3 +1,4 @@
+import BaseLayout from "@/components/baseLayout";
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 const Login = lazy(() => import("@/pages/auth/login"));
@@ -6,8 +7,23 @@ const AppRoutes = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/auth/login" element={<Login />} />
+        <Route
+          path="/"
+          element={
+            <BaseLayout>
+              <Home />
+            </BaseLayout>
+          }
+        />
+        <Route
+          path="/auth/login"
+          element={
+            <BaseLayout>
+              {" "}
+              <Login />
+            </BaseLayout>
+          }
+        />
       </Routes>
     </Suspense>
   );

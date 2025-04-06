@@ -5,8 +5,10 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <AnnouncementBar/>
-      <Header/>
+      {/* <AnnouncementBar/> */}
+      {/* <Header/> */}
+      <div>Home</div>
+      <p>herosection</p>
     </>
   )
 }
