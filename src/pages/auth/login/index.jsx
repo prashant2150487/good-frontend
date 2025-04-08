@@ -3,8 +3,8 @@ import logo from "../../../assets/logo.svg";
 import { X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import axios from "axios";
 import {  useNavigate } from "react-router-dom";
+import axiosInstance from "@/api/axiosInstance/axios";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -14,8 +14,8 @@ const Login = () => {
   };
     const handleSubmit = async () => {
       try {
-        const response = await axios.post(
-          "http://localhost:5000/api/admin/auth/checkUser",
+        const response = await axiosInstance.post(
+          "/admin/auth/checkUser",
           {
             email,
           }
