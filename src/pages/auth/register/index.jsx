@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "@/assets/logo.svg";
-import { X } from "lucide-react";
+import { CalendarIcon, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -14,8 +14,15 @@ import {
 } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 const Register = () => {
   const [gender, setGender] = useState("");
+  const [date, setDate] = useState(new Date());
   return (
     <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-[calc(100%-1rem)] max-h-full overflow-y-auto overflow-x-hidden bg-gray-100 bg-opacity-50">
       <div className="relative w-full max-w-xl max-h-full">
@@ -103,12 +110,26 @@ const Register = () => {
                 <Label htmlFor="dateOfBirth" className="text-xs font-normal">
                   Date of Birth*
                 </Label>
-                <Input
-                  type="date"
-                  placeholder="Date of Birth*"
-                  id="dateOfBirth"
-                  name="date"
-                />
+                <Popover className="w-full">
+                  <PopoverTrigger asChild>
+                    <div className="relative">
+                      <Button className="w-full text-start" variant="outline">
+                        DD/MM/YY
+                      </Button>
+                      <CalendarIcon className="absolute top-1/7 right-4 text-gray-500" />
+                    </div>
+                  </PopoverTrigger>
+                  <PopoverContent>
+                    <Calendar value={date} onChange={setDate} className="rounded-md w-fit" />
+                  </PopoverContent>
+                </Popover>
+
+                {/* <Calendar
+                    mode="single"
+                    selected={date}
+                    onSelect={setDate}
+                    className="rounded-md border w-fit"
+                  /> */}
               </div>
               <div>
                 <Select>
