@@ -20,7 +20,7 @@ const Login = () => {
             email,
           }
         );
-        if (response.data.success) {
+        if (response.data?.success) {
           if (response.data.emailExist) {
             console.log("email exist");
           } else {
