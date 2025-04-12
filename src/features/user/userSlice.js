@@ -1,8 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  user: null,
-  isAuthenticated: false,
+  user: {
+    email: "",
+    firstName: "",
+    lastName: "",
+    password: "",
+    country: "",
+    city: "",
+    dateOfBirth: "",
+    gender: "",
+    phoneCountryCode: "",
+    phoneNo: "",
+    whatsappSubscribe: false,
+    role: "",
+  },
+  isLoggedIn: false,
 };
 
 const userSlice = createSlice({
@@ -10,12 +23,25 @@ const userSlice = createSlice({
   initialState,
   reducers: {
     setUser: (state, action) => {
-      state.user = action.payload;
-      state.isAuthenticated = true;
+      state.user = { ...state.user, ...action.payload };
+      state.isLoggedIn = true;
     },
     logout: (state) => {
-      state.user = null;
-      state.isAuthenticated = false;
+      state.user = {
+        email: "",
+        firstName: "",
+        lastName: "",
+        password: "",
+        country: "",
+        city: "",
+        dateOfBirth: "",
+        gender: "",
+        phoneCountryCode: "",
+        phoneNo: "",
+        whatsappSubscribe: false,
+        role: "",
+      };
+      state.isLoggedIn = false;
     },
   },
 });

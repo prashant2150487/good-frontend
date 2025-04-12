@@ -7,12 +7,12 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
-  DrawerDescription,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import UserProfile from "../UserProfile";
+
 const Header = () => {
   return (
     <header className="flex items-center justify-between px-4">
@@ -46,19 +46,24 @@ const Header = () => {
             <CurrencyDropdown />
           </div>
           <Heart size={20} className="hidden lg:block" />
-          
-          <UserProfile/>
+
+          <UserProfile />
 
           <Drawer direction="right">
             <DrawerTrigger>
-              <ShoppingBag size={20} className="cursor-pointer hover:text-[var(--gold)]"/>
+              <ShoppingBag
+                size={20}
+                className="cursor-pointer hover:text-[var(--gold)]"
+              />
             </DrawerTrigger>
             <DrawerContent className="w-fit border-none">
               <div className="w-full h-full">
                 <DrawerHeader className="bg-[#4C4C4C] flex flex-row justify-between items-center p-4 px-5">
-                  <DrawerTitle className="text-white text-sm font-normal">MINI BAG (1 ITEMS) </DrawerTitle>
+                  <DrawerTitle className="text-white text-sm font-normal">
+                    MINI BAG (1 ITEMS){" "}
+                  </DrawerTitle>
                   <DrawerClose>
-                    <X className="text-white"/>
+                    <X className="text-white" />
                   </DrawerClose>
                 </DrawerHeader>
               </div>
