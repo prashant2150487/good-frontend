@@ -21,6 +21,8 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { useSelector } from "react-redux";
+import axiosInstance from "@/api/axiosInstance/axios";
+import { useLocation } from "react-router-dom";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -35,15 +37,78 @@ const Register = () => {
   });
 
   const [date, setDate] = useState(new Date());
+  const [errors, setErrors] = useState({});
   const countryData = useSelector((state) => state.countryData.countryData);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.email) {
+      setFormData((prev) => ({
+        ...prev,
+        email: location.state.email,
+      }));
+    }
+  }, [location.state]);
+  console.log(formData);
+
 
   const memoizedCountryOptions = useMemo(() => {
-    return countryData.map((country) => (
-      <SelectItem key={country.id} value={country.nameAscii}>
-        {country.nameAscii}
-      </SelectItem>
-    ));
+    return countryData.map((country) => {
+      const countryName = country?.nameAscii;
+      if (!countryName) return null;
+      return (
+        <SelectItem key={country.id} value={country?.nameAscii}>
+          {country?.nameAscii}
+        </SelectItem>
+      );
+    });
   }, [countryData]);
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.email) newErrors.email = "Email is required";
+    if (!formData.firstName) newErrors.firstName = "First name is required";
+    if (!formData.lastName) newErrors.lastName = "Last name is required";
+    if (!formData.gender) newErrors.gender = "Gender is required";
+    if (!formData.country) newErrors.country = "Country is required";
+    if (!formData.contactNumber)
+      newErrors.contactNumber = "Contact number is required";
+    if (!formData.term)
+      newErrors.term = "You must agree to Terms and Conditions";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const isValid = validateForm();
+    if (!isValid) return;
+    const payLoad = {
+      ...formData,
+      dateOfBirth: date.toISOString().split("T")[0],
+    };
+    try {
+      const response = await axiosInstance.post(
+        "/admin/auth/register",
+        payLoad
+      );
+      console.log(response.data);
+
+      // Reset form
+      setFormData({
+        email: "",
+        firstName: "",
+        lastName: "",
+        gender: "",
+        dateOfBirth: "",
+        country: "",
+        countryCode: "",
+        contactNumber: "",
+        term: false,
+      });
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
 
   return (
     <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full max-h-full min-h-screen overflow-x-hidden bg-gray-100 bg-opacity-50">
@@ -66,7 +131,10 @@ const Register = () => {
               Enter your email address to register or sign in.
             </h4>
           </div>
-          <form className="p-4 md:p-5 overflow-auto h-96">
+          <form
+            className="p-4 md:p-5 overflow-auto h-96"
+            onSubmit={handleSubmit}
+          >
             <div className="grid gap-4">
               <div>
                 <Label
@@ -86,6 +154,9 @@ const Register = () => {
                     setFormData({ ...formData, email: e.target.value })
                   }
                 />
+                {errors.email && (
+                  <p className="text-red-500 text-xs">{errors.email}</p>
+                )}
               </div>
               <div>
                 <Label htmlFor="firstName" className="text-xs font-normal">
@@ -101,6 +172,9 @@ const Register = () => {
                     setFormData({ ...formData, firstName: e.target.value })
                   }
                 />
+                {errors.firstName && (
+                  <p className="text-red-500 text-xs">{errors.firstName}</p>
+                )}
               </div>
               <div>
                 <Label htmlFor="lastName" className="text-xs font-normal">
@@ -116,6 +190,9 @@ const Register = () => {
                     setFormData({ ...formData, lastName: e.target.value })
                   }
                 />
+                {errors.lastName && (
+                  <p className="text-red-500 text-xs">{errors.lastName}</p>
+                )}
               </div>
               <div>
                 <Select
@@ -135,7 +212,11 @@ const Register = () => {
                     </SelectGroup>
                   </SelectContent>
                 </Select>
-                <Label htmlFor="lastName" className="text-xs font-normal">
+                {errors.gender && (
+                  <p className="text-red-500 text-xs">{errors.gender}</p>
+                )}
+
+                {/* <Label htmlFor="lastName" className="text-xs font-normal">
                   Last Name*
                 </Label>
                 <Input
@@ -143,7 +224,7 @@ const Register = () => {
                   placeholder="Last Name*"
                   id="lastName"
                   name="lastName"
-                />
+                /> */}
               </div>
               <div>
                 <Label htmlFor="dateOfBirth" className="text-xs font-normal">
@@ -186,6 +267,9 @@ const Register = () => {
                     </SelectGroup>
                   </SelectContent>
                 </Select>
+                {errors.country && (
+                  <p className="text-red-500 text-xs">{errors.country}</p>
+                )}
               </div>
               <div className="flex gap-4">
                 <Select>

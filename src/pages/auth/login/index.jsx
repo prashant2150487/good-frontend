@@ -41,7 +41,7 @@ const Login = () => {
         if (response.data.emailExist) {
           console.log("email exist");
         } else {
-          navigate("/auth/register");
+          navigate("/auth/register", { state: { email } });
         }
       }
       console.log(response);
@@ -101,7 +101,7 @@ const Login = () => {
             </Button>
           </div>
           <div className="my-20 flex flex-col gap-5 ">
-            <span className="text-center text-gray-400"> -OR LOGIN USING -</span>
+            <span className="text-center text-gray-400">-OR LOGIN USING -</span>
             <div className="bg-gray-100 p-3 rounded-full w-fit mx-auto">
               <img
                 src={googleImg}
