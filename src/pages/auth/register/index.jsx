@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import logo from "@/assets/logo.svg";
 import { CalendarIcon, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
@@ -20,13 +20,35 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { useSelector } from "react-redux";
+
 const Register = () => {
-  const [gender, setGender] = useState("");
+  const [formData, setFormData] = useState({
+    email: "",
+    firstName: "",
+    lastName: "",
+    gender: "",
+    dateOfBirth: "",
+    countryCode: "",
+    contactNumber: "",
+    term: false,
+  });
+
   const [date, setDate] = useState(new Date());
+  const countryData = useSelector((state) => state.countryData.countryData);
+
+  const memoizedCountryOptions = useMemo(() => {
+    return countryData.map((country) => (
+      <SelectItem key={country.id} value={country.nameAscii}>
+        {country.nameAscii}
+      </SelectItem>
+    ));
+  }, [countryData]);
+
   return (
-    <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-[calc(100%-1rem)] max-h-full overflow-y-auto overflow-x-hidden bg-gray-100 bg-opacity-50">
+    <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full max-h-full min-h-screen overflow-x-hidden bg-gray-100 bg-opacity-50">
       <div className="relative w-full max-w-xl max-h-full">
-        <div className="relative bg-white rounded-lg shadow-sm p-4 dark:bg-gray-700">
+        <div className="relative bg-white rounded-lg shadow-sm p-4 dark:bg-gray-700 ">
           <div className="flex items-center justify-center p-4 md:p-5 border-b border-[#c1c1c1] dark:border-gray-600 rounded-t">
             <img src={logo} className="h-12" alt="logo" />
             <button
@@ -38,13 +60,13 @@ const Register = () => {
             </button>
           </div>
 
-          <div className="p-4 md:p-5 space-y-2">
+          <div className="p-4 md:p-5 space-y-2  ">
             <h2 className="text-center font-semibold text-xl">Welcome</h2>
             <h4 className="text-center">
               Enter your email address to register or sign in.
             </h4>
           </div>
-          <form className="p-4 md:p-5 space-y-2">
+          <form className="p-4 md:p-5 overflow-auto h-96">
             <div className="grid gap-4">
               <div>
                 <Label
@@ -59,6 +81,10 @@ const Register = () => {
                   placeholder="Email ID"
                   id="email"
                   name="email"
+                  value={formData.email}
+                  onChange={(e) =>
+                    setFormData({ ...formData, email: e.target.value })
+                  }
                 />
               </div>
               <div>
@@ -70,6 +96,10 @@ const Register = () => {
                   placeholder="First Name*"
                   id="email"
                   name="email"
+                  value={formData.firstName}
+                  onChange={(e) =>
+                    setFormData({ ...formData, firstName: e.target.value })
+                  }
                 />
               </div>
               <div>
@@ -81,10 +111,19 @@ const Register = () => {
                   placeholder="Last Name*"
                   id="lastName"
                   name="lastName"
+                  value={formData.lastName}
+                  onChange={(e) =>
+                    setFormData({ ...formData, lastName: e.target.value })
+                  }
                 />
               </div>
               <div>
-                <Select value={gender} onValueChange={setGender}>
+                <Select
+                  value={formData.gender}
+                  onValueChange={(value) =>
+                    setFormData({ ...formData, gender: value })
+                  }
+                >
                   <SelectTrigger className="w-full">
                     <SelectValue placeholder="Select Gender" />
                   </SelectTrigger>
@@ -120,7 +159,11 @@ const Register = () => {
                     </div>
                   </PopoverTrigger>
                   <PopoverContent>
-                    <Calendar value={date} onChange={setDate} className="rounded-md w-fit" />
+                    <Calendar
+                      value={date}
+                      onChange={setDate}
+                      className="rounded-md w-fit"
+                    />
                   </PopoverContent>
                 </Popover>
 
@@ -136,6 +179,12 @@ const Register = () => {
                   <SelectTrigger className="w-full">
                     <SelectValue placeholder="Select Country*" />
                   </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectLabel>Country</SelectLabel>
+                      {memoizedCountryOptions}
+                    </SelectGroup>
+                  </SelectContent>
                 </Select>
               </div>
               <div className="flex gap-4">

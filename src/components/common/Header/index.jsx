@@ -1,5 +1,5 @@
 import { Heart, Menu, Search, ShoppingBag, User, X } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import CurrencyDropdown from "./CurrencyDropdown";
@@ -14,6 +14,9 @@ import {
 import UserProfile from "../UserProfile";
 
 const Header = () => {
+  // useEffect(() => {
+  //   console.log("run")
+  // },[]);
   return (
     <header className="flex items-center justify-between px-4">
       <Menu className="lg:hidden" />
