@@ -52,7 +52,7 @@ const Login = () => {
     } catch (e) {
       console.error("Error fetching data", e);
     } finally {
-      dispatch(setLoader(true));
+      dispatch(setLoader(false));
       setLoading(false);
     }
   };

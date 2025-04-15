@@ -3,7 +3,7 @@ import Header from "../common/Header";
 import AnnouncementBar from "../common/announcementbar";
 import Loader from "../common/Loader";
 import Footer from "../common/footer";
-
+import { Toaster } from "../ui/sonner";
 const BaseLayout = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -12,6 +12,7 @@ const BaseLayout = ({ children }) => {
       {children}
       <Loader />
       <Footer />
+      <Toaster />
     </div>
   );
 };
