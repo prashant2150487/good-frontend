@@ -1,5 +1,6 @@
 import BaseLayout from "@/components/baseLayout";
 import Register from "@/pages/auth/register";
+import VerifyUser from "@/pages/auth/verifyUser";
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 const Login = lazy(() => import("@/pages/auth/login"));
@@ -29,6 +30,14 @@ const AppRoutes = () => {
           element={
             <BaseLayout>
               <Register />
+            </BaseLayout>
+          }
+        />
+        <Route
+          path="/auth/verify-user"
+          element={
+            <BaseLayout>
+              <VerifyUser/>
             </BaseLayout>
           }
         />

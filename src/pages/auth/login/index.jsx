@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "@/api/axiosInstance/axios";
 import googleImg from "../../../assets/goggleImg.png";
+import { useDispatch } from "react-redux";
+import { setLoader } from "@/features/loader/loader";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleChange = (email) => {
     setEmail(email);
@@ -34,20 +36,23 @@ const Login = () => {
     }
     try {
       setLoading(true);
+      dispatch(setLoader(true));
       const response = await axiosInstance.post("/admin/auth/checkUser", {
         email,
       });
       if (response.data?.success) {
         if (response.data.emailExist) {
           console.log("email exist");
+          navigate("/auth/verify-user", { state: { email } });
         } else {
-          navigate("/auth/register", { state: { email } });
+          navigate("/register", { state: { email } });
         }
       }
       console.log(response);
     } catch (e) {
       console.error("Error fetching data", e);
     } finally {
+      dispatch(setLoader(true));
       setLoading(false);
     }
   };
