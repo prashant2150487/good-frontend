@@ -10,37 +10,34 @@ import {
 } from "@/components/ui/input-otp";
 import { Button } from "@/components/ui/button";
 import { REGEXP_ONLY_DIGITS } from "input-otp";
-import { Toast } from "@radix-ui/react-toast";
 import axiosInstance from "@/api/axiosInstance/axios";
 import { toast } from "sonner";
 
 const VerifyUser = () => {
-  const [optValue, setOtpValue] = React.useState("");
+  const [otpValue, setOtpValue] = React.useState("");
   const navigate = useNavigate();
   const location = useLocation();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (optValue.length < 6) {
-      toast.error("Please enter a valid OTP"); // Fixed Toast usage
+    if (otpValue.length < 6) {
+      toast.error("Please enter all 6 digits.");
       return;
     }
-    console.log("otpValue", optValue);
     try {
       const response = await axiosInstance.post("/admin/auth/verifyOtp", {
         email: location.state?.email,
-        otp: optValue,
+        otp: otpValue,
       });
       if (response.data?.success) {
-        console.log("OTP verified");
-        navigate("/"); // Fixed variable name
+        toast.success("OTP verified successfully.");
+        navigate("/");
       } else {
-        toast.error("Invalid OTP"); // Added Toast for invalid OTP
-        console.log("Invalid OTP");
+        toast.error("Invalid OTP");
       }
     } catch (error) {
       console.error("Error verifying OTP", error);
-      toast.error("Error verifying OTP"); // Added Toast for error
+      toast.error(error.response?.data?.message || "An error occurred while verifying OTP.");
     }
   };
 
@@ -52,7 +49,7 @@ const VerifyUser = () => {
             <img src={logo} className="h-12" alt="logo" />
             <button
               type="button"
-              onClick={() => navigate("/")} // Fixed variable name
+              onClick={() => navigate("/")}
               className="text-gray-400 bg-transparent rounded-lg text-sm w-8 h-8 absolute right-5"
             >
               <X />
@@ -69,35 +66,47 @@ const VerifyUser = () => {
             <div className="flex justify-center">
               <InputOTP
                 maxLength={6}
-                value={optValue}
+                value={otpValue}
                 pattern={REGEXP_ONLY_DIGITS}
                 onChange={(value) => setOtpValue(value)}
               >
-                <InputOTPGroup>
-                  <InputOTPSlot index={0} />
-                  <InputOTPSlot index={1} />
-                  <InputOTPSlot index={2} />
-                </InputOTPGroup>
-                <InputOTPSeparator />
-                <InputOTPGroup>
-                  <InputOTPSlot index={3} />
-                  <InputOTPSlot index={4} />
-                  <InputOTPSlot index={5} />
+                <InputOTPGroup className="gap-2">
+                  {[0, 1, 2, 3, 4, 5].map((index) => (
+                    <InputOTPSlot
+                      key={index}
+                      index={index}
+                      className="p-6 rounded-sm border border-[#E5E5E5] "
+                    />
+                  ))}
                 </InputOTPGroup>
               </InputOTP>
+            </div>
+            <div>
+              <span className="flex justify-center gap-2 items-center mt-4">
+                <p>DIDN’T RECEIVE OTP? </p>
+                <Link
+                  to="/auth/resend-otp"
+                  className="text-[#4C4C4C] underline"
+                >
+                  Resend OTP
+                </Link>
+              </span>
+              <p className="text-center">Attempt: 0/5</p>
             </div>
 
             <div className="flex flex-col items-center justify-center space-y-2 mt-4">
               <Button
-                className="w-full p-6 bg-gray-600"
+                className="w-full p-6 bg-[#9F9F9F] rounded-none"
                 type="submit"
-                onClick={handleSubmit}
               >
-                Verify OTP & Proceed
+                VERIFY OTP & PROCEED
               </Button>
               <Button
-                className="w-full p-6 bg-gray-600"
-                onClick={() => navigate(-1)} // Added functionality to go back
+                disabled={otpValue.length < 6}
+                className="w-full p-6 rounded-none border border-[#4C4C4C]"
+                type="button"
+                variant="outline"
+                onClick={() => navigate(-1)}
               >
                 GO Back
               </Button>
