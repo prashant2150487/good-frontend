@@ -40,10 +40,11 @@ const Login = () => {
       const response = await axiosInstance.post("/admin/auth/checkUser", {
         email,
       });
+      console.log("response", response.data);
+      console.log(response.data.attemptCount)
       if (response.data?.success) {
         if (response.data.emailExist) {
-          console.log("email exist");
-          navigate("/auth/verify-user", { state: { email } });
+          navigate("/auth/verify-user", { state: { email , attemptCount: response.data.attemptCount  } });
         } else {
           navigate("/register", { state: { email } });
         }
