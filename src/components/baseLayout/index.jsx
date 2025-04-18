@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../common/Header";
 import AnnouncementBar from "../common/announcementbar";
 import Loader from "../common/Loader";
 import Footer from "../common/footer";
 import { Toaster } from "../ui/sonner";
+import { showToast } from "../common/Toast";
 const BaseLayout = ({ children }) => {
+  useEffect(() => {
+    showToast("Event start time");
+  }, []);
   return (
     <div className="min-h-screen flex flex-col">
       <AnnouncementBar />
@@ -12,7 +16,11 @@ const BaseLayout = ({ children }) => {
       {children}
       <Loader />
       <Footer />
-      <Toaster />
+      <Toaster
+        position="top-right"
+        // expand={false}
+       
+      />
     </div>
   );
 };
