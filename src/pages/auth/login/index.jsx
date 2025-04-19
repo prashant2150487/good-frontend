@@ -45,7 +45,7 @@ const Login = () => {
           console.log("email exist");
           navigate("/auth/verify-user", { state: { email } });
         } else {
-          navigate("/register", { state: { email } });
+          navigate("/auth/register", { state: { email } });
         }
       }
       console.log(response);

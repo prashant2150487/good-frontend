@@ -35,10 +35,11 @@ const Header = () => {
           <span>HOME</span>
           <span>APPAREL</span>
           <span>GIFTING</span>
-          <span className="whitespace-nowrap">OUR WORLD</span>
+          <Link to="/our-world" className="whitespace-nowrap">
+            OUR WORLD
+          </Link>
         </div>
       </div>
-
       <div className="flex lg:w-md lg:px-4 gap-4 justify-center lg:justify-between">
         <div className="flex items-center gap-1 text-[var(--cerise)]">
           <Search className="w-5" />
