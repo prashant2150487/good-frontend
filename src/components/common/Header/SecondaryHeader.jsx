@@ -36,7 +36,7 @@ const SecondaryHeader = () => {
             <ChevronRight />
           </BreadcrumbSeparator>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/components" className="text-xs">
+            <BreadcrumbLink href="/components" className="text-xs text-black">
               Components
             </BreadcrumbLink>
           </BreadcrumbItem>

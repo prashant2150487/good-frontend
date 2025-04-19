@@ -1,12 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../common/Header";
 import AnnouncementBar from "../common/announcementbar";
 import Loader from "../common/Loader";
 import Footer from "../common/footer";
 import { Toaster } from "../ui/sonner";
-import { showToast } from "../common/Toast";
 const BaseLayout = ({ children }) => {
-  
   return (
     <div className="min-h-screen flex flex-col">
       <AnnouncementBar />
@@ -17,7 +15,6 @@ const BaseLayout = ({ children }) => {
       <Toaster
         position="top-right"
         // expand={false}
-       
       />
     </div>
   );
