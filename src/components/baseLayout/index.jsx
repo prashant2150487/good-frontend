@@ -6,9 +6,7 @@ import Footer from "../common/footer";
 import { Toaster } from "../ui/sonner";
 import { showToast } from "../common/Toast";
 const BaseLayout = ({ children }) => {
-  useEffect(() => {
-    showToast("Event start time");
-  }, []);
+  
   return (
     <div className="min-h-screen flex flex-col">
       <AnnouncementBar />
