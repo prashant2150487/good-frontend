@@ -4,11 +4,12 @@ import AnnouncementBar from "../common/announcementbar";
 import Loader from "../common/Loader";
 import Footer from "../common/footer";
 import { Toaster } from "../ui/sonner";
+import data from "../../utils/data.json";
 const BaseLayout = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
       <AnnouncementBar />
-      <Header />
+      <Header headerData={data} />
       {children}
       <Loader />
       <Footer />

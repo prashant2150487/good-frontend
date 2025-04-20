@@ -1,5 +1,5 @@
 import { Heart, Menu, Search, ShoppingBag, User, X } from "lucide-react";
-import React, { useEffect } from "react";
+import React from "react";
 import logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import CurrencyDropdown from "./CurrencyDropdown";
@@ -14,10 +14,8 @@ import {
 import UserProfile from "../UserProfile";
 import SecondaryHeader from "./SecondaryHeader";
 
-const Header = () => {
-  // useEffect(() => {
-  //   console.log("run")
-  // },[]);
+const Header = ({ headerData }) => {
+ 
   return (
     <>
       <header className="flex items-center justify-between px-4 bg-[#f9f8f5]">
@@ -34,10 +32,11 @@ const Header = () => {
             </Link>
           </div>
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
-            <span>HOME</span>
-            <span>APPAREL</span>
-            <span>GIFTING</span>
-            <span className="whitespace-nowrap">OUR WORLD</span>
+            {headerData?.menu_columns[0]?.l1_menu?.map((item, index) => (
+              <span key={index} className="whitespace-nowrap">
+                {item.title}
+              </span>
+            ))}
           </div>
         </div>
 
