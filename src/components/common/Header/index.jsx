@@ -13,9 +13,11 @@ import {
 } from "@/components/ui/drawer";
 import UserProfile from "../UserProfile";
 import SecondaryHeader from "./SecondaryHeader";
+import MegaMenu from "./MegaMenu";
 
 const Header = ({ headerData }) => {
- 
+  const [showSearchInput, setShowSearchInput] = React.useState(false);
+
   return (
     <>
       <header className="flex items-center justify-between px-4 bg-[#f9f8f5]">
@@ -33,7 +35,12 @@ const Header = ({ headerData }) => {
           </div>
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
             {headerData?.menu_columns[0]?.l1_menu?.map((item, index) => (
-              <span key={index} className="whitespace-nowrap">
+              <span
+                key={index}
+                className="whitespace-nowrap cursor-pointer"
+                onMouseEnter={() => setShowSearchInput(true)}
+                onMouseLeave={() => setShowSearchInput(false)}
+              >
                 {item.title}
               </span>
             ))}
@@ -77,6 +84,7 @@ const Header = ({ headerData }) => {
         </div>
       </header>
       <SecondaryHeader />
+      {showSearchInput && <MegaMenu />}
     </>
   );
 };
