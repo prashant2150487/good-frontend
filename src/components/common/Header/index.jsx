@@ -14,8 +14,10 @@ import {
 import UserProfile from "../UserProfile";
 import SecondaryHeader from "./SecondaryHeader";
 import MegaMenu from "./MegaMenu";
+import SearchInput from "./SearchInput";
 
 const Header = ({ headerData }) => {
+  const [showMegaMenu, setShowMegaMenu] = React.useState(false);
   const [showSearchInput, setShowSearchInput] = React.useState(false);
 
   return (
@@ -38,8 +40,8 @@ const Header = ({ headerData }) => {
               <span
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
-                onMouseEnter={() => setShowSearchInput(true)}
-                onMouseLeave={() => setShowSearchInput(false)}
+                onMouseEnter={() => setShowMegaMenu(true)}
+                onMouseLeave={() => setShowMegaMenu(false)}
               >
                 {item.title}
               </span>
@@ -48,7 +50,7 @@ const Header = ({ headerData }) => {
         </div>
 
         <div className="flex lg:w-md lg:px-4 gap-4 justify-center lg:justify-between">
-          <div className="flex items-center gap-1 text-[var(--cerise)]">
+          <div className="flex items-center gap-1 text-[var(--cerise)]" onClick={() => setShowSearchInput(!showSearchInput)}>
             <Search className="w-5" />
             <p className="text-xs hidden lg:block">Search</p>
           </div>
@@ -84,7 +86,8 @@ const Header = ({ headerData }) => {
         </div>
       </header>
       <SecondaryHeader />
-      {showSearchInput && <MegaMenu />}
+      {showMegaMenu && <MegaMenu />}
+      {showSearchInput && <SearchInput />}
     </>
   );
 };
