@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../../../assets/logo.svg";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { X } from "lucide-react";
@@ -15,9 +15,14 @@ import { toast } from "sonner";
 
 const VerifyUser = () => {
   const [otpValue, setOtpValue] = React.useState("");
+  const [maxAttempt, setMaxAttempt] = React.useState(0);
+  const [error, setError] = React.useState("");
   const navigate = useNavigate();
   const location = useLocation();
 
+  useEffect(() => {
+    setMaxAttempt(location.state?.attemptCount);
+  },[])
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (otpValue.length < 6) {
@@ -37,6 +42,11 @@ const VerifyUser = () => {
       }
     } catch (error) {
       console.error("Error verifying OTP", error);
+      setMaxAttempt(5-error.response?.data?.remainingAttempts);
+      setOtpValue("")
+      if(error.response?.data?.maxAttemptsReached){
+        setError("Maximum attempts reached. Please try again later.");
+      }
       toast.error(error.response?.data?.message || "An error occurred while verifying OTP.");
     }
   };
@@ -52,7 +62,7 @@ const VerifyUser = () => {
               onClick={() => navigate("/")}
               className="text-gray-400 bg-transparent rounded-lg text-sm w-8 h-8 absolute right-5"
             >
-              <X />
+              <X/>
             </button>
           </div>
 
@@ -63,7 +73,7 @@ const VerifyUser = () => {
             </h4>
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="flex justify-center">
+            <div className="flex justify-center flex-col items-center space-y-2">
               <InputOTP
                 maxLength={6}
                 value={otpValue}
@@ -79,19 +89,25 @@ const VerifyUser = () => {
                     />
                   ))}
                 </InputOTPGroup>
+                
               </InputOTP>
+              {error && (
+                <p className="text-red-500 text-xs text-center mt-0">
+                  {error}
+                </p>
+              )}
             </div>
             <div>
-              <span className="flex justify-center gap-2 items-center mt-4">
+              <span className="flex justify-center gap-2 items-center mt-4 text-xs">
                 <p>DIDN’T RECEIVE OTP? </p>
                 <Link
                   to="/auth/resend-otp"
-                  className="text-[#4C4C4C] underline"
+                  className="text-[#4C4C4C] underline text-sx"
                 >
                   Resend OTP
                 </Link>
               </span>
-              <p className="text-center">Attempt: 0/5</p>
+              <p className="text-center">Attempt: {maxAttempt}/5</p>
             </div>
 
             <div className="flex flex-col items-center justify-center space-y-2 mt-4">

@@ -8,6 +8,8 @@ import axiosInstance from "@/api/axiosInstance/axios";
 import googleImg from "../../../assets/goggleImg.png";
 import { useDispatch } from "react-redux";
 import { setLoader } from "@/features/loader/loader";
+import { toast } from "sonner";
+import { showToast } from "@/components/common/Toast";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
@@ -40,10 +42,14 @@ const Login = () => {
       const response = await axiosInstance.post("/admin/auth/checkUser", {
         email,
       });
+      console.log("response", response.data);
+      console.log(response.data.attemptCount);
       if (response.data?.success) {
         if (response.data.emailExist) {
-          console.log("email exist");
-          navigate("/auth/verify-user", { state: { email } });
+          showToast(response?.data?.message);
+          navigate("/auth/verify-user", {
+            state: { email, attemptCount: response.data.attemptCount },
+          });
         } else {
           navigate("/auth/register", { state: { email } });
         }
