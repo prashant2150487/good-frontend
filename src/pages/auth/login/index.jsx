@@ -51,7 +51,7 @@ const Login = () => {
             state: { email, attemptCount: response.data.attemptCount },
           });
         } else {
-          navigate("/register", { state: { email } });
+          navigate("/auth/register", { state: { email } });
         }
       }
       console.log(response);
