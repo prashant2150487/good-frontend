@@ -1,5 +1,5 @@
 import { Heart, Menu, Search, ShoppingBag, User, X } from "lucide-react";
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import CurrencyDropdown from "./CurrencyDropdown";
@@ -19,7 +19,8 @@ import SearchInput from "./SearchInput";
 const Header = ({ headerData }) => {
   const [showMegaMenu, setShowMegaMenu] = React.useState(false);
   const [showSearchInput, setShowSearchInput] = React.useState(false);
-
+  const [l1Index, setL1Index] = React.useState("");
+  console.log(l1Index);
   return (
     <>
       <header className="flex items-center justify-between px-4 bg-[#f9f8f5]">
@@ -40,7 +41,10 @@ const Header = ({ headerData }) => {
               <span
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
-                onMouseEnter={() => setShowMegaMenu(true)}
+                onMouseEnter={() => {
+                  setShowMegaMenu(true);
+                  setL1Index(index);
+                }}
                 onMouseLeave={() => setShowMegaMenu(false)}
               >
                 {item.title}
@@ -50,7 +54,10 @@ const Header = ({ headerData }) => {
         </div>
 
         <div className="flex lg:w-md lg:px-4 gap-4 justify-center lg:justify-between">
-          <div className="flex items-center gap-1 text-[var(--cerise)]" onClick={() => setShowSearchInput(!showSearchInput)}>
+          <div
+            className="flex items-center gap-1 text-[var(--cerise)] cursor-pointer"
+            onClick={() => setShowSearchInput(!showSearchInput)}
+          >
             <Search className="w-5" />
             <p className="text-xs hidden lg:block">Search</p>
           </div>
@@ -86,8 +93,10 @@ const Header = ({ headerData }) => {
         </div>
       </header>
       <SecondaryHeader />
-      {showMegaMenu && <MegaMenu />}
-      {showSearchInput && <SearchInput />}
+      {showMegaMenu && <MegaMenu headerData={headerData} l1Index={l1Index}/>}
+      {showSearchInput && (
+        <SearchInput setShowSearchInput={setShowSearchInput} />
+      )}
     </>
   );
 };
