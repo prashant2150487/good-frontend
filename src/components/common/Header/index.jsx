@@ -1,5 +1,5 @@
 import { Heart, Menu, Search, ShoppingBag, User, X } from "lucide-react";
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import CurrencyDropdown from "./CurrencyDropdown";
@@ -20,7 +20,7 @@ const Header = ({ headerData }) => {
   const [showMegaMenu, setShowMegaMenu] = React.useState(false);
   const [showSearchInput, setShowSearchInput] = React.useState(false);
   const [l1Index, setL1Index] = React.useState("");
-  console.log(l1Index);
+  console.log(l1Index,headerData);
   return (
     <>
       <header className="flex items-center justify-between px-4 bg-[#f9f8f5]">
@@ -37,7 +37,7 @@ const Header = ({ headerData }) => {
             </Link>
           </div>
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
-            {headerData?.menu_columns[0]?.l1_menu?.map((item, index) => (
+            {headerData?.results.map((item, index) => (
               <span
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
@@ -45,9 +45,9 @@ const Header = ({ headerData }) => {
                   setShowMegaMenu(true);
                   setL1Index(index);
                 }}
-                onMouseLeave={() => setShowMegaMenu(false)}
+                // onMouseLeave={() => setShowMegaMenu(false)}
               >
-                {item.title}
+                {item.name}
               </span>
             ))}
           </div>
