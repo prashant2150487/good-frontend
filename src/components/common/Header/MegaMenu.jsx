@@ -7,7 +7,7 @@ const MegaMenu = ({ headerData, l1Index }) => {
   console.log("leftMenu", leftMenu.length);
 
   return (
-    <div className="min-h-80 bg-amber-200 p-4 ">
+    <div className="min-h-80 p-4 ">
       <div className="flex gap-6 justify-center">
         {/* Left Menu */}
         <div className={`flex gap-6`}>

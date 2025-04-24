@@ -40,7 +40,7 @@ const Header = ({ headerData }) => {
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
             {headerData?.results.map((item, index) => (
               <Link
-                to={item.link}
+                to={item.catLandingUrl}
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
                 onMouseEnter={() => {
