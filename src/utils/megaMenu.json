@@ -329,7 +329,7 @@
     },
     {
       "id": 194,
-      "name": "Bed & Bath",
+      "name": "APPAREL",
       "url": "/catalogue/category/bed-bath_194/?source=plp&category_shop=Bed & Bath",
       "labelDesktop": null,
       "labelMobile": null,
@@ -527,7 +527,7 @@
     },
     {
       "id": 1,
-      "name": "Apparel",
+      "name": "GIFTING",
       "url": "/catalogue/category/women_1/?source=plp&category_shop=Apparel",
       "labelDesktop": null,
       "labelMobile": null,
@@ -1245,11 +1245,11 @@
     },
     {
       "id": 98,
-      "name": "Stories",
+      "name": "OUR WORD",
       "url": "https://www.goodearth.in/stories",
       "labelDesktop": "",
       "labelMobile": "",
-      "catLandingUrl": "https://www.goodearth.in/stories",
+      "catLandingUrl": "http://localhost:5173/our-word",
       "leftMenu": [
         {
           "id": 0,
