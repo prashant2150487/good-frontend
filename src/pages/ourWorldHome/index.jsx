@@ -1,7 +1,11 @@
 import React from "react";
+import DiscoverGoodEarth from "./DiscoverGoodEarth";
+import Banner from "./Banner";
 
 const OurWorldHome = () => {
-  return <div>OurWorldHome</div>;
+  return <div>
+      <Banner/>
+    <DiscoverGoodEarth/>
+  </div>;
 };
-
 export default OurWorldHome;
