@@ -39,7 +39,8 @@ const Header = ({ headerData }) => {
           </div>
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
             {headerData?.results.map((item, index) => (
-              <span
+              <Link
+                to={item.link}
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
                 onMouseEnter={() => {
@@ -49,7 +50,7 @@ const Header = ({ headerData }) => {
                 // onMouseLeave={() => setShowMegaMenu(false)}
               >
                 {item.name}
-              </span>
+              </Link>
             ))}
           </div>
         </div>
