@@ -6,7 +6,7 @@ const OurWorldLayout = ({ children }) => {
     <>
       <OurWorldHeader />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

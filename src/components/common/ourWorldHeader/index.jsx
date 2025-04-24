@@ -9,13 +9,13 @@ const OurWorldHeader = () => {
   };
   return (
     <>
-      <header className="bg-white flex items-center justify-between px-10 py-2  border-gray-200">
+      <header className="bg-white flex items-center justify-between px-10 py-3  border-gray-200">
         <div className="flex items-center justify-center gap-2">
           <div className="">
             {showMenu ? (
               <X onClick={handleMenuToggle} />
             ) : (
-              <AlignJustify onClick={handleMenuToggle} />
+              <AlignJustify className="text-[#4c4c4c]" onClick={handleMenuToggle} />
             )}
           </div>
           <h1 className="text-xs font-normal text-[#191919] md:text-sm cursor-pointer">

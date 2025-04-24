@@ -14,6 +14,7 @@ import {
 import UserProfile from "../UserProfile";
 import SecondaryHeader from "./SecondaryHeader";
 import MegaMenu from "./MegaMenu";
+
 import SearchInput from "./SearchInput";
 
 const Header = ({ headerData }) => {
