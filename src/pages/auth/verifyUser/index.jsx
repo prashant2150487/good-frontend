@@ -12,6 +12,8 @@ import { Button } from "@/components/ui/button";
 import { REGEXP_ONLY_DIGITS } from "input-otp";
 import axiosInstance from "@/api/axiosInstance/axios";
 import { toast } from "sonner";
+import { useDispatch } from "react-redux";
+import { setLoader } from "@/features/loader/loader";
 
 const VerifyUser = () => {
   const [otpValue, setOtpValue] = React.useState("");
@@ -19,6 +21,7 @@ const VerifyUser = () => {
   const [error, setError] = React.useState("");
   const navigate = useNavigate();
   const location = useLocation();
+  const dispatch =useDispatch() ;
 
   useEffect(() => {
     setMaxAttempt(location.state?.attemptCount);
@@ -30,10 +33,12 @@ const VerifyUser = () => {
       return;
     }
     try {
+      dispatch(setLoader(true))
       const response = await axiosInstance.post("/admin/auth/verifyOtp", {
         email: location.state?.email,
         otp: otpValue,
       });
+      console.log("response", response.data);
       if (response.data?.success) {
         toast.success("OTP verified successfully.");
         navigate("/");
@@ -48,6 +53,8 @@ const VerifyUser = () => {
         setError("Maximum attempts reached. Please try again later.");
       }
       toast.error(error.response?.data?.message || "An error occurred while verifying OTP.");
+    }finally{
+      dispatch(setLoader(false))
     }
   };
 

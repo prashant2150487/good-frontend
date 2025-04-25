@@ -83,7 +83,7 @@
             "children": [
               {
                 "id": 28,
-                "name": "Dining Collections",
+                "name": "Design Collection",
                 "url": "/allcollection/living_26/28/"
               },
               {
@@ -95,7 +95,7 @@
               },
               {
                 "id": 33,
-                "name": "Glassware & Barware",
+                "name": "Serveware",
                 "labelDesktop": "",
                 "labelMobile": "",
                 "url": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining+%3E+Glassware+%26+Barware"
@@ -111,7 +111,7 @@
           },
           {
             "id": 177,
-            "name": "Tea & Coffee",
+            "name": "Drinkware & Bar",
             "labelDesktop": null,
             "labelMobile": null,
             "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee",
@@ -132,10 +132,61 @@
               },
               {
                 "id": 32,
-                "name": "Serveware",
+                "name": "Glasses",
                 "labelDesktop": "",
                 "labelMobile": "",
                 "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Serveware"
+              },
+              {
+                "id": 31,
+                "name": "Barware",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
+              },
+              {
+                "id": 31,
+                "name": "Tray",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
+              }
+            ]
+          },
+          {
+            "id": 177,
+            "name": "Kids",
+            "labelDesktop": null,
+            "labelMobile": null,
+            "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee",
+            "children": [
+              {
+                "id": 190,
+                "name": "Newborn Gifting",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Tea+%26+Coffee+Sets"
+              },
+              {
+                "id": 191,
+                "name": "Bed & Bath",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Mugs"
+              },
+              {
+                "id": 32,
+                "name": "Play & Learn",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Serveware"
+              },
+              {
+                "id": 31,
+                "name": "Kids Apparel",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
               }
             ]
           }

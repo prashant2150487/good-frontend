@@ -7,7 +7,7 @@ const Loader = () => {
   return (
     <>
       {isLoading && (
-        <div className="absolute inset-0 h-screen flex items-center justify-center ">
+        <div className="absolute inset-0 h-screen flex items-center justify-center z-100">
           <SyncLoader loading={isLoading} color="#ab1e56" />
         </div>
       )}

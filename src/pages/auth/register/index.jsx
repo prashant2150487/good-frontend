@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/popover";
 import { useSelector } from "react-redux";
 import axiosInstance from "@/api/axiosInstance/axios";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -40,7 +40,7 @@ const Register = () => {
   const [errors, setErrors] = useState({});
   const countryData = useSelector((state) => state.countryData.countryData);
   const location = useLocation();
-
+  const navigate = useNavigate();
   useEffect(() => {
     if (location.state?.email) {
       setFormData((prev) => ({
@@ -49,7 +49,6 @@ const Register = () => {
       }));
     }
   }, [location.state]);
-  console.log(formData);
 
 
   const memoizedCountryOptions = useMemo(() => {
@@ -91,7 +90,6 @@ const Register = () => {
         "/admin/auth/register",
         payLoad
       );
-      console.log(response.data);
 
       // Reset form
       setFormData({
@@ -118,7 +116,7 @@ const Register = () => {
             <img src={logo} className="h-12" alt="logo" />
             <button
               type="button"
-              // onClick={onClose}
+              onClick={()=>navigate("/")}
               className="text-gray-400 bg-transparent rounded-lg text-sm w-8 h-8 absolute right-5"
             >
               <X />

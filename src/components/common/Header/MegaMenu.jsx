@@ -16,7 +16,7 @@ const MegaMenu = ({ headerData, l1Index }) => {
               <Link to={item?.url || "#"} className="font-bold text-lg">
                 {item?.name}
               </Link>
-              <ul className="ml-4 list-disc">
+              <ul className="list-none">
                 {item?.children?.map((child, cIdx) => (
                   <li key={`left-child-${cIdx}`}>{child?.name}</li>
                 ))}
