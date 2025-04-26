@@ -43,7 +43,6 @@ const Login = () => {
         email,
       });
       console.log("response", response.data);
-      console.log(response.data.attemptCount);
       if (response.data?.success) {
         if (response.data.emailExist) {
           showToast(response?.data?.message);
@@ -54,7 +53,6 @@ const Login = () => {
           navigate("/auth/register", { state: { email } });
         }
       }
-      console.log(response);
     } catch (e) {
       console.error("Error fetching data", e);
     } finally {
@@ -62,7 +60,6 @@ const Login = () => {
       setLoading(false);
     }
   };
-  console.log("email", email);
   return (
     <div className="fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full h-[calc(100%-1rem)] max-h-full overflow-y-auto overflow-x-hidden bg-gray-100 bg-opacity-50">
       <div className="relative w-full max-w-lg  max-h-full">

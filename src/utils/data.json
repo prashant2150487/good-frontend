@@ -1,0 +1,3368 @@
+[
+    {
+        "columns": [
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Shop Sale",
+                                "text": "Shop Sale",
+                                "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+>+Sustain+Woman",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/89563with%20Free%20Shipping.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Home By Discount",
+                                "text": "Home By Discount",
+                                "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/43714Frame%20407.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale_1/home-by-discount_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+flat+price",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Flat Price",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+50%25+Off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "50% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+30%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "30% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+20%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "20% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+10%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "10% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Home By Category",
+                                "text": "Home By Category",
+                                "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+>+Dining",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Dining",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+>+Drinkware+%26+Bar",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Drinkware &amp; Bar",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+>+Decor",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Decor",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+>+Home+Textiles",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Home Textiles",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/cushion-covers_47/?source=plp&category_shop=Home+>+Cushion+Covers",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Cushion Covers",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+>+Ancient+Rituals",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Ancient Rituals",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+>+Bath+%26+Fragrance",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Bath &amp; Fragrance",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Apparel By Discount",
+                                "text": "Apparel By Discount",
+                                "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/80363Frame%20398.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+Flat+Price",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Flat Price",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+50%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "50% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+30%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "30% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+20%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "20% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+10%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "10% off",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Apparel By Category",
+                                "text": "Apparel By Category",
+                                "link": "/category_landing/women_1/",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+>+Sustain+Woman",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Sustain Woman",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+>+Sustain+Man",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Sustain Man",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+>+Occasion",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Occasion Wear",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+>+Rozana",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Rozana",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+>+Titli",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Titli",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+>+Flow",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Flow",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Kids By Category",
+                                "text": "Kids By Category",
+                                "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+>+Kids",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/95088Frame%20436%20(1).jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+>+Kids+>+Bed+%26+Bath",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Kids Home",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/kids_sale_442/?source=plp&category_shop=Apparel+>+Kids+Sale",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Kids Apparel",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "CONTENT",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Featured",
+                                "text": "Featured",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/cushion-covers_47/?source=plp&category_shop=Home+>+Cushion+Covers",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/42915Frame%20405.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Explore Cushions&nbsp;",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+>+Occasion",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/51772Frame%20420%20(1).jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Shop Occasion Wear&nbsp;",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+>+Decor",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/96178Frame%20399.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Discover Decor",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            }
+        ],
+        "text": "<p>Sale</p>",
+        "url": "/category_landing/sale_1_360/",
+        "openInNewTab": false
+    },
+    {
+        "columns": [
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<span style=\"color: rgb(171, 30, 86);\">HOME SALE</span>",
+                                "text": "<span style=\"color: rgb(171, 30, 86);\">HOME SALE</span>",
+                                "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/5571364861with%20Free%20Shipping.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale_1/home-by-discount_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+flat+price",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"background-color: rgb(255, 255, 255); color: rgb(171, 30, 86);\">Flat Price</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+50%25+Off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"background-color: rgb(255, 255, 255); color: rgb(171, 30, 86);\">50% Off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+30%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"background-color: rgb(255, 255, 255); color: rgb(171, 30, 86);\">30% Off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+20%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"background-color: rgb(255, 255, 255); color: rgb(171, 30, 86);\">20% Off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/sale/sale-home_475/?source=plp&category_shop=Sale+>+Home+By+Discount+>+10%25+off",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"background-color: rgb(255, 255, 255); color: rgb(171, 30, 86);\">10% Off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": true,
+                "templates": [
+                    {
+                        "publishOnMobile": true,
+                        "labelOnMobile": "Featured",
+                        "templateType": "CONTENT",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Featured",
+                                "text": "Featured",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "https://www.goodearth.in/catalogue/seraiglassesset-of-6_789/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/12015Frame%20427.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Serai Glasses",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/collection/living_pomegranate-roses-bos_491/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/18864p%26r.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/28994mob%20tan.png",
+                                        "heading": "Pomegranates &amp; Roses",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/collection/living_anjuman-2_412/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/59244anjuman.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/72604mob.png",
+                                        "heading": "Anjuman",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Dining",
+                                "text": "<p>Dining</p>",
+                                "link": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Design Collection",
+                                        "link": "/allcollection/living_26/28/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Dinnerware",
+                                        "link": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining+%3E+Dinnerware",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Serveware",
+                                        "link": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining+%3E+Serveware",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Table Linen",
+                                        "link": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining+%3E+Table+Linen",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Drinkware & Bar",
+                                "text": "<p>Drinkware &amp; Bar</p>",
+                                "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Tea & Coffee Sets",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar+%3E+Tea+%26+Coffee+Sets",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Mugs",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar+%3E+Mugs",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Glasses",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar+%3E+Glasses",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Barware",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar+%3E+Barware",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Trays",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Drinkware+%26+Bar+%3E+Trays",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Kids",
+                                "text": "<p>Kids</p>",
+                                "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Newborn Gifting",
+                                        "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids+%3E+Newborn+Gifting",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bed & Bath",
+                                        "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids+%3E+Bed+%26+Bath",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Play & Learn",
+                                        "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids+%3E+Play+%26+Learn",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Kids Apparel",
+                                        "link": "/catalogue/category/living/kids_57/?source=plp&category_shop=Home+%3E+Kids+%3E+Kids+Apparel",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Decor",
+                                "text": "<p>Decor</p>",
+                                "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "undefined",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Vases",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Vases",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Lanterns & Votives",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Lanterns+%26+Votives",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Centerpieces & Accessories",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Centerpieces+%26+Accessories",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Candles & Stands",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Candles+%26+Stands",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Journals",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Journals",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Wallcoverings",
+                                        "link": "/catalogue/category/living/decor_49/?source=plp&category_shop=Home+%3E+Decor+%3E+Wallcoverings",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Home Textiles",
+                                "text": "<p>Home Textiles</p>",
+                                "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "undefined",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bed Collections",
+                                        "link": "/allcollection/living_26/194/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "White Essentials",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+White+Essentials",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bedspreads",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Bedspreads",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Quilts & Dohars",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Quilts+%26+Dohars",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bolsters & Shams",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Bolsters+%26+Shams",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Throws",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Throws",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Curtains & Yardage",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Curtains+%26+Yardage",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Cushion Covers",
+                                        "link": "/catalogue/category/living/bed-bath_194/?source=plp&category_shop=Home+%3E+Home+Textiles+%3E+Cushion+Covers",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "CONTENT",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Cushion Covers",
+                                "text": "Cushion Covers",
+                                "link": "/catalogue/category/living/cushion-covers_47/?source=plp&category_shop=Home+>+Cushion+Covers",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/allcollection/living_26/47/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/90981nomad.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Cushion Collections",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/cushion-covers_47/?source=plp&category_shop=Home+>+Cushion+Covers+>+Prints",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/25947block%20print.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Prints",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/cushion-covers_47/?source=plp&category_shop=Home+>+Cushion+Covers+>+Embroidered+%26+Brocades",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/67698jade.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Embroidered &amp; Brocades",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Ancient Rituals",
+                                "text": "<p>Ancient Rituals</p>",
+                                "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/5658848054Menu-Ancient-Rituals.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Incense & Dhuna",
+                                        "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals+%3E+Incense+%26+Dhuna",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Copperware",
+                                        "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals+%3E+Copperware",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Kansa",
+                                        "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals+%3E+Kansa",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Honey",
+                                        "link": "/catalogue/category/living/wellness_64/?source=plp&category_shop=Home+%3E+Ancient+Rituals+%3E+Honey",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Bath & Fragrance",
+                                "text": "<p>Bath &amp; Fragrance</p>",
+                                "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "LilaNur Parfums",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance+%3E+LilaNur+Parfums",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Aromatherapy",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance+%3E+Aromatherapy",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bath & Bodycare",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance+%3E+Bath+%26+Bodycare",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Bathroom Accessories",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance+%3E+Bathroom+Accessories",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Towels",
+                                        "link": "/catalogue/category/living/fragrance_210/?source=plp&category_shop=Home+%3E+Bath+%26+Fragrance+%3E+Towels",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            }
+        ],
+        "text": "<p>Home</p>",
+        "url": "/category_landing/living_26/",
+        "openInNewTab": false
+    },
+    {
+        "columns": [
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<span style=\"color: rgb(171, 30, 86);\">Sale</span>",
+                                "text": "<span style=\"color: rgb(171, 30, 86);\">Sale</span>",
+                                "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://d3qn6cjsz7zlnp.cloudfront.net/media/menu/19819sale%20image.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+Flat+Price",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"color: rgb(171, 30, 86);\">Flat Price</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+50%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"color: rgb(171, 30, 86);\">50% off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+30%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"color: rgb(171, 30, 86);\">30% off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+20%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"color: rgb(171, 30, 86);\">20% off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/women/sale_441/?source=plp&category_shop=Apparel+>+Apparel+Sale+>+10%25",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<span style=\"color: rgb(171, 30, 86);\">10% off</span>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<span style=\"color: rgb(171, 30, 86);\">Kids Sale</span>",
+                                "text": "<span style=\"color: rgb(171, 30, 86);\">Kids Sale</span>",
+                                "link": "/catalogue/category/women/kids_sale_442/?source=plp&category_shop=Apparel+>+Kids+Sale",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Sustain Woman",
+                                "text": "<p>Sustain Woman</p>",
+                                "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Kurtas & Kaftans",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Kurtas+%26+Kaftans",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Tops",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Tops",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Dresses & Tunics",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Dresses+%26+Tunics",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Jackets & Overlays",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Jackets+%26+Overlays",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Farshis & Pants",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Farshis+%26+Pants",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Lehengas & Shararas",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Lehengas+%26+Shararas",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Odhanis",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Odhanis",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Scarves & Stoles",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Scarves+%26+Stoles",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Sarees",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Sarees",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Mojris",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Mojris",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Winter Edit",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Winter+Edit",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Rashmi Varma",
+                                        "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+%3E+Sustain+Woman+%3E+Rashmi+Varma",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Sustain Man",
+                                "text": "<p>Sustain Man</p>",
+                                "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+%3E+Sustain+Man",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+%3E+Sustain+Man"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Kurtas",
+                                        "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+%3E+Sustain+Man+%3E+Kurtas",
+                                        "ctaName": "<p>Kurtas</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Shirts & Jackets",
+                                        "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+%3E+Sustain+Man+%3E+Shirts+%26+Jackets",
+                                        "ctaName": "<p>Shirts &amp; Jackets</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Pants",
+                                        "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+%3E+Sustain+Man+%3E+Pants",
+                                        "ctaName": "<p>Pants</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Rozana",
+                                "text": "<p>Rozana</p>",
+                                "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+%3E+Rozana",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/30163Group-16%201.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+%3E+Rozana"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "custom",
+                                        "link": "/catalogue/category/women/men_172/?source=plp&category_shop=Apparel+>+Rozana+>+Kurtas+%26+Kaftans",
+                                        "ctaName": "<p>Kurtas &amp; Kaftans</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Top",
+                                        "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+>+Rozana+>+Top",
+                                        "ctaName": "<p>Tops</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Farshis & Pants",
+                                        "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+>+Rozana+>+Farshis+%26+Pants",
+                                        "ctaName": "<p>Farshis &amp; Pants</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Lehengas & Shararas",
+                                        "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+>+Rozana+>+Lehengas+%26+Shararas",
+                                        "ctaName": "<p>Lehengas &amp; Shararas</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Scarves & Odhanis",
+                                        "link": "/catalogue/category/women/rozana_541/?source=plp&category_shop=Apparel+>+Rozana+>+Scarves+%26+Odhanis",
+                                        "ctaName": "<p>Scarves &amp; Odhanis</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Flow",
+                                "text": "<p>Flow</p>",
+                                "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/3707Flow-new.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Tops & Shirts",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow+%3E+Tops+%26+Shirts",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Dresses & Jumpsuits",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow+%3E+Dresses+%26+Jumpsuits",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Pants",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow+%3E+Pants",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Jackets",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow+%3E+Jackets",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Accessories",
+                                        "link": "/catalogue/category/women/flow_324/?source=plp&category_shop=Apparel+%3E+Flow+%3E+Accessories",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": true,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Titli",
+                                "text": "<p>Titli</p>",
+                                "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/52557titli%20menu.png",
+                                "thumbnailSrc": "",
+                                "videoSrc": "undefined",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Tops & Shirts",
+                                        "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli+%3E+Tops+%26+Shirts",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Kurtas & Dresses",
+                                        "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli+%3E+Kurtas+%26+Dresses",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Pants & Skirts",
+                                        "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli+%3E+Pants+%26+Skirts",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Jackets & Scarfs",
+                                        "link": "/catalogue/category/women/titli_488/?source=plp&category_shop=Apparel+%3E+Titli+%3E+Jackets+%26+Scarfs",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Jewellery",
+                                "text": "Jewellery",
+                                "link": "/catalogue/category/women/jewellery_338/?source=plp&category_shop=Apparel+>+Jewellery",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/63257Kesya_Menu_H1.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Occasion wear",
+                                "text": "Occasion wear",
+                                "link": "/catalogue/category/women/uppers_3/?source=plp&category_shop=Apparel+>+Occasion",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            }
+        ],
+        "text": "<p>Apparel</p>",
+        "url": "/category_landing/women_1/",
+        "openInNewTab": false
+    },
+    {
+        "columns": [
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "VERTICALIMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<p>Gifts For Season</p>",
+                                "text": "<p>Gifts For Season</p>",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Occasion+>+Gifts+for+Season",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/857555.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p><strong>View All</strong></p>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Shop By Occasion",
+                                "text": "<p>Shop By Occasion</p>",
+                                "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+%3E+Shop+By+Occasion",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+%3E+Shop+By+Occasion"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Birthday",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+%3E+Shop+By+Occasion+%3E+Birthday",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "New Home",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+%3E+Shop+By+Occasion+%3E+New+Home",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Wedding",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Occasion+>+Wedding",
+                                        "ctaName": "<p>Newly-Weds</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Anniversary",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+%3E+Shop+By+Occasion+%3E+Anniversary",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Gifts Of Love",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Occasion+>+Gifts+Of+Love",
+                                        "ctaName": "<p>Gifts-Of-Gratitude</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Gifts for Season",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Occasion+>+Gifts+for+Season",
+                                        "ctaName": "<p>Seasonal-Gifts</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "L2L3",
+                        "templateData": {
+                            "componentType": "L2",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Shop By Recipient",
+                                "text": "<p>Shop By Recipient</p>",
+                                "link": "/catalogue/category/gifting/shop-by-recipient_374/?source=plp&category_shop=Gifting+%3E+Shop+By+Recipient",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": "/catalogue/category/gifting/shop-by-recipient_374/?source=plp&category_shop=Gifting+%3E+Shop+By+Recipient"
+                            },
+                            "children": [
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "The Gracious Host",
+                                        "link": "/catalogue/category/gifting/shop-by-recipient_374/?source=plp&category_shop=Gifting+%3E+Shop+By+Recipient+%3E+The+Gracious+Host",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "India Lovers",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Recipient+>+India+Lovers",
+                                        "ctaName": "<p>Indophiles</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Friends like Family",
+                                        "link": "/catalogue/category/gifting/shop-by-recipient_374/?source=plp&category_shop=Gifting+%3E+Shop+By+Recipient+%3E+Friends+like+Family",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Holiday Gifting",
+                                        "link": "/catalogue/category/gifting/shop-by-occasion_375/?source=plp&category_shop=Gifting+>+Shop+By+Recipient+>+Holiday+Gifting",
+                                        "ctaName": "<p>Wellness-Enthusiast</p>",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                },
+                                {
+                                    "componentType": "L3",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "Little Ones",
+                                        "link": "/catalogue/category/gifting/shop-by-recipient_374/?source=plp&category_shop=Gifting+%3E+Shop+By+Recipient+%3E+Little+Ones",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": true,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "VERTICALIMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Gifting",
+                                "text": "Gifting",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+>+Drinkware+%26+Bar+>+Tea+%26+Coffee+Sets|Home+>+Drinkware+%26+Bar+>+Mugs",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/35917Petite.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "Petite Giftables",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "VERTICALIMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "GIFT CARDS",
+                                "text": "GIFT CARDS",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/giftcard",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/2826gc.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "<strong>Discover Gift Cards&gt;</strong>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "VERTICALIMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<p>CORPORATE GIFTING&nbsp;</p>",
+                                "text": "<p>CORPORATE GIFTING&nbsp;</p>",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/corporate-gifts-catalogue",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/51643MicrosoftTeams-image%20(7).png",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p><strong>Explore&gt;</strong></p>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "VERTICALIMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<p>GIFT REGISTRY</p>",
+                                "text": "<p>GIFT REGISTRY</p>",
+                                "link": "",
+                                "openInNewTab": false,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/the-good-earth-registry",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/5151733579glasses.jpg",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p><strong>Discover&gt;</strong></p>",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            }
+        ],
+        "text": "<p>Gifting</p>",
+        "url": "/category_landing/gifting_373/",
+        "openInNewTab": false
+    },
+    {
+        "columns": [
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "ABOUT",
+                                "text": "ABOUT",
+                                "link": "",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/1791347786About-Us.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/about/our-journey/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Our Journey",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/about/milestones/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Milestones",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/about/iconic-designs/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Iconic Designs",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Brand Values",
+                                "text": "Brand Values",
+                                "link": "",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/values/our-ethos/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Our Ethos",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/values/sustainability/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Sustainability",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/values/heritage-foundation/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Heritage Foundation",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<p>Design Philosophy</p>",
+                                "text": "<p>Design Philosophy</p>",
+                                "link": "/our-world/design-philosophy/",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/design-philosophy/pehchaan/crafts/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Pehchaan</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/design-philosophy/van-vaibhav/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Van Vaibhav</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/design-philosophy/collections/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Design Collections</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/design-philosophy/collaborations/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Collaborations</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/design-philosophy/interiors/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Interiors</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": true,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Good Earth Experience",
+                                "text": "Good Earth Experience",
+                                "link": "",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/99649_DSC2655-(2).jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/instoreservices",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Our Boutiques",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/category_landing/gifting_373/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "Gifting",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    },
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "In the Media",
+                                "text": "In the Media",
+                                "link": "/our-world/in-the-media/",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "",
+                                        "subHeading": "",
+                                        "openInNewTab": false
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": true
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": true,
+                        "labelOnMobile": "Featured Stories",
+                        "templateType": "IMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Featured Stories",
+                                "text": "Featured Stories",
+                                "link": "/our-world/stories/",
+                                "openInNewTab": true,
+                                "ctaName": "<p>View All</p>",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/my-cup-of-tea/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/51462New-Thumbnail-Dekstop-ow.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/75108new-mobile-ow.jpg",
+                                        "heading": "My cup of tea with Asaf Ali &amp; Samina Zaidi",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/harvest-at-the-table/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/3149694953Harvest-at-the-table.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/7601736950img2.jpg",
+                                        "heading": "Harvest at the table",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/building-block-of-good-earth-nishaat-block-print-story/",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/1987Nishaat.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/47654Nishaat-Mobf.jpg",
+                                        "heading": "Building Blocks of Good Earth: Nishaat",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "TITLEHEADING",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "<p>Entertaining Guides</p>",
+                                "text": "<p>Entertaining Guides</p>",
+                                "link": "/our-world/stories/be-my-guest-the-indian-art-of-entertaining/",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/4737421905Entertaining-guides.jpg",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/flowers-fragrance-with-anita-lal/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Fragrance: Anita Lal</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/curating-the-perfect-menu-with-marut-sikka/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Menus: Marut Sikka</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/thoughtful-gifting-with-deepshikha-khanna/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Thoughtful Gifting: Deepshikha Khanna</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/the-art-of-decorating-with-devika-narain/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Decor: Devika Narain</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/setting-the-vibe-with-ad-sabina-singh/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Hosting: AD &amp; Sabina Singh</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/stories/raising-a-toast-with-eeshaan-kashyap/",
+                                        "ctaName": "",
+                                        "src": "",
+                                        "thumbnailSrc": "",
+                                        "heading": "<p>Drinks: Eeshan Kashyap</p>",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            },
+            {
+                "separator": false,
+                "templates": [
+                    {
+                        "publishOnMobile": false,
+                        "labelOnMobile": "",
+                        "templateType": "IMAGE",
+                        "templateData": {
+                            "componentType": "Title",
+                            "labelOnViewAll": "",
+                            "componentData": {
+                                "title": "Featured Videos",
+                                "text": "Featured Videos",
+                                "link": "/our-world/featured-videos/",
+                                "openInNewTab": true,
+                                "ctaName": "",
+                                "src": "",
+                                "thumbnailSrc": "",
+                                "videoSrc": "",
+                                "videoThumbnailSrc": "",
+                                "ctaMobile": "",
+                                "viewAllLink": ""
+                            },
+                            "children": [
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/featured-videos/?title=Sindhu+Ajrakh%3A+The+Tale+of+the+Travelling+Quilts",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/21500Group-24.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/979733026video1%201.jpg",
+                                        "heading": "Global Nomad: Travelling Traditions of Indian Textile",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                },
+                                {
+                                    "componentType": "Image",
+                                    "componentData": {
+                                        "title": "",
+                                        "text": "",
+                                        "link": "/our-world/featured-videos/?title=Mirage%3A+A+Desert+Fantasy",
+                                        "ctaName": "",
+                                        "src": "https://djhiy8e1dslha.cloudfront.net/media/menu/93432Group-23.jpg",
+                                        "thumbnailSrc": "https://djhiy8e1dslha.cloudfront.net/media/menu/7715774720video2%201.jpg",
+                                        "heading": "Mirage: A desert fantasy",
+                                        "subHeading": "",
+                                        "openInNewTab": true
+                                    }
+                                }
+                            ]
+                        },
+                        "hideViewAllOnMobile": false
+                    }
+                ]
+            }
+        ],
+        "text": "<p><span style=\"color: rgb(156, 125, 80);\">Our World</span></p>",
+        "url": "/our-world/",
+        "openInNewTab": true
+    }
+]

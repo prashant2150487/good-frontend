@@ -16,12 +16,15 @@ import SecondaryHeader from "./SecondaryHeader";
 import MegaMenu from "./MegaMenu";
 
 import SearchInput from "./SearchInput";
+import { useSelector } from "react-redux";
 
 const Header = ({ headerData }) => {
   const [showMegaMenu, setShowMegaMenu] = React.useState(false);
   const [showSearchInput, setShowSearchInput] = React.useState(false);
   const [l1Index, setL1Index] = React.useState("");
-  console.log(l1Index,headerData);
+  // console.log(l1Index,headerData);
+  const {isLoggedIn}=useSelector((state)=>state.user)
+  // console.log("isLoggedIn",isLoggedIn)
   return (
     <>
       <header className="flex items-center justify-between px-4 bg-[#f9f8f5]">
@@ -38,18 +41,19 @@ const Header = ({ headerData }) => {
             </Link>
           </div>
           <div className="hidden lg:flex gap-9 text-[14px] text-[#191919] px-2 text-semibold">
-            {headerData?.results.map((item, index) => (
+            {headerData?.map((item, index) => (
               <Link
-                to={item.link}
+                to={item.url}
                 key={index}
                 className="whitespace-nowrap cursor-pointer"
                 onMouseEnter={() => {
                   setShowMegaMenu(true);
                   setL1Index(index);
                 }}
+                target={item.openInNewTab ? "_blank" : "_self"}
                 // onMouseLeave={() => setShowMegaMenu(false)}
               >
-                {item.name}
+                <span dangerouslySetInnerHTML={{__html:item.text}}/>
               </Link>
             ))}
           </div>
@@ -68,9 +72,7 @@ const Header = ({ headerData }) => {
               <CurrencyDropdown />
             </div>
             <Heart size={20} className="hidden lg:block" />
-
             <UserProfile />
-
             <Drawer direction="right">
               <DrawerTrigger>
                 <ShoppingBag
@@ -95,7 +97,7 @@ const Header = ({ headerData }) => {
         </div>
       </header>
       <SecondaryHeader />
-      {showMegaMenu && <MegaMenu headerData={headerData} l1Index={l1Index}/>}
+      {showMegaMenu && <MegaMenu megaMenuData={headerData[l1Index]}/>}
       {showSearchInput && (
         <SearchInput setShowSearchInput={setShowSearchInput} />
       )}

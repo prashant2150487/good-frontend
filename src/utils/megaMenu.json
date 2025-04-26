@@ -10,28 +10,22 @@
       "leftMenu": [
         {
           "id": 17,
-          "name": "GIFTING",
+          "name": "TANGIER",
           "labelDesktop": "",
           "labelMobile": "",
           "url": "/gifting",
           "children": [
             {
               "id": 18,
-              "name": "Gifting Favourites",
+              "name": "Tangerine Tableware",
               "labelDesktop": "",
               "labelMobile": "",
               "url": "/catalogue/category/Home/corporate-gifts_103/?source=plp&category_shop=Home+>+Art+of+Gifting+>+Gifting++Favourites"
             },
-            {
-              "id": 3,
-              "name": "Gift Card",
-              "labelDesktop": "",
-              "labelMobile": "",
-              "url": "/giftcard/"
-            },
+
             {
               "id": 19,
-              "name": "Gifts Of Gratitude",
+              "name": "Tangier",
               "labelDesktop": "",
               "labelMobile": "",
               "url": "/catalogue/category/Home/corporate-gifts_103/?source=plp&category_shop=Home+>+Art+of+Gifting+>+Gifting+Exclusives"
@@ -45,21 +39,37 @@
             }
           ]
         },
-        {
-          "id": 40,
-          "name": "Puspanjali",
-          "labelDesktop": "",
-          "labelMobile": "",
-          "url": "/puspanjali-festive-2020",
-          "children": []
-        },
+
         {
           "id": 39,
-          "name": "GE X Souk Pop up",
+          "name": "FEATURED",
           "labelDesktop": "",
           "labelMobile": "",
           "url": "/catalogue/category/souk_264/?source=plp&category_shop=Souk&src_type=cp",
-          "children": []
+          "children": [
+            {
+              "id": 18,
+              "name": "Good Earth Craft Diary",
+              "labelDesktop": "",
+              "labelMobile": "",
+              "url": "/catalogue/category/Home/corporate-gifts_103/?source=plp&category_shop=Home+>+Art+of+Gifting+>+Gifting++Favourites"
+            },
+
+            {
+              "id": 19,
+              "name": "Wild Flower",
+              "labelDesktop": "",
+              "labelMobile": "",
+              "url": "/catalogue/category/Home/corporate-gifts_103/?source=plp&category_shop=Home+>+Art+of+Gifting+>+Gifting+Exclusives"
+            },
+            {
+              "id": 9,
+              "name": "Anjuman",
+              "labelDesktop": "",
+              "labelMobile": "",
+              "url": "/corporate-gifts-catalogue"
+            }
+          ]
         }
       ],
       "rightMenu": [
@@ -73,7 +83,7 @@
             "children": [
               {
                 "id": 28,
-                "name": "Dining Collections",
+                "name": "Design Collection",
                 "url": "/allcollection/living_26/28/"
               },
               {
@@ -85,7 +95,7 @@
               },
               {
                 "id": 33,
-                "name": "Glassware & Barware",
+                "name": "Serveware",
                 "labelDesktop": "",
                 "labelMobile": "",
                 "url": "/catalogue/category/living/dining_28/?source=plp&category_shop=Home+%3E+Dining+%3E+Glassware+%26+Barware"
@@ -101,7 +111,7 @@
           },
           {
             "id": 177,
-            "name": "Tea & Coffee",
+            "name": "Drinkware & Bar",
             "labelDesktop": null,
             "labelMobile": null,
             "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee",
@@ -122,10 +132,61 @@
               },
               {
                 "id": 32,
-                "name": "Serveware",
+                "name": "Glasses",
                 "labelDesktop": "",
                 "labelMobile": "",
                 "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Serveware"
+              },
+              {
+                "id": 31,
+                "name": "Barware",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
+              },
+              {
+                "id": 31,
+                "name": "Tray",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
+              }
+            ]
+          },
+          {
+            "id": 177,
+            "name": "Kids",
+            "labelDesktop": null,
+            "labelMobile": null,
+            "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee",
+            "children": [
+              {
+                "id": 190,
+                "name": "Newborn Gifting",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Tea+%26+Coffee+Sets"
+              },
+              {
+                "id": 191,
+                "name": "Bed & Bath",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Mugs"
+              },
+              {
+                "id": 32,
+                "name": "Play & Learn",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Serveware"
+              },
+              {
+                "id": 31,
+                "name": "Kids Apparel",
+                "labelDesktop": "",
+                "labelMobile": "",
+                "url": "/catalogue/category/living/test123_177/?source=plp&category_shop=Home+%3E+Tea+%26+Coffee+%3E+Barware"
               }
             ]
           }
@@ -1245,11 +1306,11 @@
     },
     {
       "id": 98,
-      "name": "OUR WORD",
+      "name": "OUR WORLD",
       "url": "https://www.goodearth.in/stories",
       "labelDesktop": "",
       "labelMobile": "",
-      "catLandingUrl": "http://localhost:5173/our-word",
+      "catLandingUrl": "http://localhost:5173/our-world",
       "leftMenu": [
         {
           "id": 0,

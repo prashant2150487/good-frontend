@@ -1,34 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MegaMenuItem from "./MegaMenuItem";
 
-const MegaMenu = ({ headerData, l1Index }) => {
-  const leftMenu = headerData?.results?.[l1Index]?.leftMenu || [];
-  const rightMenu = headerData?.results?.[l1Index]?.rightMenu || [];
-  console.log("leftMenu", leftMenu.length);
+const MegaMenu = ({ megaMenuData }) => {
+  // const leftMenu = headerData?.results?.[l1Index]?.leftMenu || [];
+  // const rightMenu = headerData?.results?.[l1Index]?.rightMenu || [];
+  console.log("leftMenu", megaMenuData?.columns);
 
   return (
-    <div className="min-h-80 bg-amber-200 p-4 ">
+    <div className="min-h-80 p-4 ">
       <div className="flex gap-6 justify-center">
+        {megaMenuData?.columns?.map((item, idx) => (
+          <MegaMenuItem itemData={item} key={idx} />
+        ))}
+
         {/* Left Menu */}
-        <div className={`flex gap-6`}>
+        {/* <div className={`flex gap-6`}>
           {leftMenu.map((item, idx) => (
             <div key={`left-${idx}`} className="mb-4 w-fit">
               <Link to={item?.url || "#"} className="font-bold text-lg">
                 {item?.name}
               </Link>
-              <ul className="ml-4 list-disc">
+              <ul className="list-none">
                 {item?.children?.map((child, cIdx) => (
                   <li key={`left-child-${cIdx}`}>{child?.name}</li>
                 ))}
               </ul>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Right Menu */}
-        <div className={`flex grid-cols-${rightMenu.length} gap-5`}>
+        {/* <div className={`flex grid-cols-${rightMenu.length} gap-5`}>
           {rightMenu.map((item, idx) => {
-            const rightItem = item?.[0]; // ensure it's the object
+            const rightItem = item?.[0]; 
             return (
               <div key={`right-${idx}`} className={`mb-4`}>
                 <Link to={rightItem?.url || "#"} className="font-bold text-lg">
@@ -44,7 +49,7 @@ const MegaMenu = ({ headerData, l1Index }) => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );
