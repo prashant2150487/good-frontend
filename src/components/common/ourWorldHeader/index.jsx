@@ -22,13 +22,13 @@ const OurWorldHeader = () => {
             Our World
           </h1>
         </div>
-        <div className="">
+        <Link to="/" className="">
           <img
             src={logo}
             alt="Our World Logo"
             className="w-74.29px md:w-[125px] h-[37.8px]"
           />
-        </div>
+        </Link>
         <Link
           to="/our-world"
           className="text-[#191919] hover:text-gold text-xs md:text-sm font-normal border border-transparent hover:border-b hover:border-b-gold"
