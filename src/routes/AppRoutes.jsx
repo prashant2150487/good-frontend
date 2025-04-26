@@ -2,6 +2,7 @@ import BaseLayout from "@/components/baseLayout";
 import OurWorldLayout from "@/components/ourWorldLayout";
 import Register from "@/pages/auth/register";
 import VerifyUser from "@/pages/auth/verifyUser";
+import OurJourney from "@/pages/ourJourey";
 import OurWorldHome from "@/pages/ourWorldHome";
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
@@ -48,6 +49,14 @@ const AppRoutes = () => {
           element={
             <OurWorldLayout>
               <OurWorldHome />
+            </OurWorldLayout>
+          }
+        />
+        <Route
+          path="/our-world/about/our-journey"
+          element={
+            <OurWorldLayout>
+          <OurJourney/>
             </OurWorldLayout>
           }
         />
